@@ -94,5 +94,21 @@
         android:background="#f36f27"
         android:text="@string/user_login_button" />
 
+    <Button
+        android:id="@+id/user_registration_button"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="75dp"
+        android:background="#433434"
+        android:text="@string/user_registration_button"
+        android:textColor="#FFFFFF" />
+
 
 </RelativeLayout>
