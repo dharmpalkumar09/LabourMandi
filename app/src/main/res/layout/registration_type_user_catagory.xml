@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration_type_user_type"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login" >
+
+    <TextView
+        android:id="@+id/sign_up_as"
+        android:layout_width="251dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:text="@string/user_sign_up_type"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:id="@+id/user_type_selection_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_below="@+id/sign_up_as"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lloking_for_work_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_colour"
+            tools:text="@string/looking_for_work" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_colour"
+            tools:text="@string/looking_for_worker" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_up_user_type_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_type_selection_linearlayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="400dp"
+        android:layout_weight="1"
+        android:background="@drawable/click_button_background_color"
+        android:text="@string/user_registration_button_submit_next" />
+
+</RelativeLayout>

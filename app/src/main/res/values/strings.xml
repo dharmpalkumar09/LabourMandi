@@ -11,4 +11,7 @@
     <string name="user_registration_button_with_facebook">Login With Facebook</string>
     <string name="user_registration_button_or">OR</string>
     <string name="user_registration_button_submit_next">NEXT</string>
+    <string name="user_sign_up_type">Looking For?</string>
+    <string name="looking_for_work">WORK</string>
+    <string name="looking_for_worker">WORKER</string>
 </resources>
