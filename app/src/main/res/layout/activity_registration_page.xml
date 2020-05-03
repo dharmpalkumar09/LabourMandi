@@ -12,7 +12,7 @@
         android:layout_width="181dp"
         android:layout_height="41dp"
         android:layout_marginTop="44dp"
-        android:background="@drawable/button_colour"
+        android:background="#B23121"
         android:text="@string/user_registration_with_google"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="186dp"
         android:layout_height="40dp"
         android:layout_marginTop="28dp"
-        android:background="@drawable/button_colour"
+        android:background="#2f55a4"
         android:text="@string/user_registration_button_with_facebook"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +49,9 @@
         android:layout_width="401dp"
         android:layout_height="346dp"
         android:layout_marginTop="32dp"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@android:color/white"
+        android:scrollbarSize="4dip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,30 +69,29 @@
                 android:layout_margin="18dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_colour"
+                android:hint="NAME"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="5dp"
-                android:hint="NAME"
-                android:textColorHint="@android:color/white"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
 
             <EditText
                 android:id="@+id/date_of_birth"
-                android:inputType="date"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_colour"
+                android:hint="Date Of Birth"
+                android:inputType="date"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="5dp"
-                android:hint="Date Of Birth"
-                android:textColorHint="@android:color/white"
                 android:textColor="@android:color/white"
-                android:background="@drawable/button_colour"
-                />
+                android:textColorHint="@android:color/white" />
 
             <EditText
                 android:id="@+id/sign_up_contact_number"
@@ -97,15 +99,14 @@
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_colour"
+                android:hint="Contact No"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="5dp"
-                android:hint="Contact No"
-                android:textColorHint="@android:color/white"
                 android:textColor="@android:color/white"
-                android:background="@drawable/button_colour"
-                />
+                android:textColorHint="@android:color/white" />
 
             <EditText
                 android:id="@+id/sign_up_adhar_number"
@@ -113,15 +114,14 @@
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_colour"
+                android:hint="Aadhar Card Number"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="5dp"
-                android:hint="Aadhar Card Number"
-                android:textColorHint="@android:color/white"
                 android:textColor="@android:color/white"
-                android:background="@drawable/button_colour"
-                />
+                android:textColorHint="@android:color/white" />
 
             <EditText
                 android:id="@+id/sign_up_pancard_no"
@@ -129,15 +129,14 @@
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_colour"
+                android:hint="PAN Number"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="5dp"
-                android:hint="PAN Number"
-                android:textColorHint="@android:color/white"
                 android:textColor="@android:color/white"
-                android:background="@drawable/button_colour"
-                />
+                android:textColorHint="@android:color/white" />
 
             <EditText
                 android:id="@+id/sign_up_email_id"
@@ -145,25 +144,23 @@
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_colour"
+                android:hint="Email-Id"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="5dp"
-                android:hint="Email-Id"
-                android:textColorHint="@android:color/white"
                 android:textColor="@android:color/white"
-                android:background="@drawable/button_colour"
-                />
+                android:textColorHint="@android:color/white" />
         </LinearLayout>
     </ScrollView>
 
     <Button
         android:id="@+id/registration_button_next"
-        android:layout_width="368dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/click_button_background_color"
         android:text="@string/user_registration_button_submit_next"
         app:layout_constraintStart_toStartOf="parent"
