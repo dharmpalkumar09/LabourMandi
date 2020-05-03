@@ -42,20 +42,22 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/lloking_for_work_button"
+            android:id="@+id/looking_for_work_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="10dp"
+            android:textColor="@android:color/white"
             android:background="@drawable/button_colour"
             tools:text="@string/looking_for_work" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/looking_for_worker_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="10dp"
+            android:textColor="@android:color/white"
             android:background="@drawable/button_colour"
             tools:text="@string/looking_for_worker" />
 

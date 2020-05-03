@@ -14,6 +14,7 @@
         android:layout_marginTop="44dp"
         android:background="@drawable/button_colour"
         android:text="@string/user_registration_with_google"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,18 +26,19 @@
         android:layout_marginTop="28dp"
         android:background="@drawable/button_colour"
         android:text="@string/user_registration_button_with_facebook"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button3"
-
         android:layout_width="62dp"
         android:layout_height="48dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/circle_button"
         android:text="@string/user_registration_button_or"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,85 +60,100 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/textView13"
+                android:id="@+id/sign_up_user_name"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_colour"
-                android:text="TextView" />
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="5dp"
+                android:hint="NAME"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white" />
 
             <EditText
-                android:id="@+id/textView14"
+                android:id="@+id/date_of_birth"
+                android:inputType="date"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="5dp"
+                android:hint="Date Of Birth"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:background="@drawable/button_colour"
-                android:text="TextView" />
+                />
 
             <EditText
-                android:id="@+id/textView15"
+                android:id="@+id/sign_up_contact_number"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="5dp"
+                android:hint="Contact No"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:background="@drawable/button_colour"
-                android:text="TextView" />
+                />
 
             <EditText
-                android:id="@+id/textView16"
+                android:id="@+id/sign_up_adhar_number"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="5dp"
+                android:hint="Aadhar Card Number"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:background="@drawable/button_colour"
-                android:text="TextView" />
+                />
 
             <EditText
-                android:id="@+id/textView17"
+                android:id="@+id/sign_up_pancard_no"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="5dp"
+                android:hint="PAN Number"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:background="@drawable/button_colour"
-                android:text="TextView" />
+                />
 
             <EditText
-                android:id="@+id/textView18"
+                android:id="@+id/sign_up_email_id"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_margin="18dp"
                 android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="5dp"
+                android:hint="Email-Id"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:background="@drawable/button_colour"
-                android:text="TextView" />
-
-            <EditText
-                android:id="@+id/textView19"
-                android:layout_width="match_parent"
-                android:layout_height="54dp"
-                android:layout_margin="18dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_colour"
-                android:text="TextView" />
-
-            <EditText
-                android:id="@+id/textView20"
-                android:layout_width="match_parent"
-                android:layout_height="54dp"
-                android:layout_margin="18dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_colour"
-                android:text="TextView" />
-
-            <EditText
-                android:id="@+id/textView21"
-                android:layout_width="match_parent"
-                android:layout_height="54dp"
-                android:layout_margin="18dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_colour"
-                android:text="TextView" />
+                />
         </LinearLayout>
     </ScrollView>
 
